@@ -2,9 +2,9 @@ from datetime import datetime, date
 
 def week_print(dict):  #замена дней недели 
     stroka = ''
-    days=["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"]
+    days={1:"Monday",2:"Tuesday",3:"Wednesday",4:"Thursday",5:"Friday",6:"Saturday",7:"Sunday"}
     for key in dict:
-        stroka += f'{days[int(key)-1]} : {dict[key]}\n'
+        stroka += f'{days[key]} : {dict[key]}\n'
     return stroka
 
 
