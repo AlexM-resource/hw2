@@ -1,5 +1,4 @@
 from datetime import datetime, date
-#RRRRRRRRRRRRRR
 
 def week_print(dict):  #замена дней недели 
     stroka = ''
