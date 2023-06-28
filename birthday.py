@@ -28,5 +28,5 @@ def get_birthdays_per_week(users):
     dirth_list = dict(sorted(dirth_list.items())) 
     return week_print(dirth_list)
 
-users = [{'Bill':'2015-06-18'},{'Kill':'2015-06-14'}, {'Rill':'1999-06-22'}, {'Till':'2025-06-24'}]
+users = [{'Bill':'2015-06-18'},{'Kill':'2015-06-14'}, {'Rill':'1999-06-28'}, {'Till':'2025-06-24'}]
 print (get_birthdays_per_week(users))
